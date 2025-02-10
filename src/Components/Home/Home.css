@@ -1,0 +1,119 @@
+body {
+    background-image: url("3d-valentines-day-celebration-background_23-2150099998.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh; /* Ensures full height coverage */
+  }
+  
+  /* Responsive Fix */
+  @media (max-width: 768px) {
+    body {
+      background-size: cover; /* Ensures full coverage */
+    }
+  }
+  
+  .home-container {
+      text-align: center;
+      padding: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .home-container button {
+      background-color: #ff4d6d;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+  
+    
+    .home-container button:hover {
+      background-color: #d43f5e;
+    }
+    
+    .home-container {
+      text-align: center;
+      padding: 50px;
+      background: rgba(255, 255, 255, 0.2); /* Translucent white background */
+      backdrop-filter: blur(10px); /* Blurred effect */
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 40%;
+      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .home-container {
+      text-align: center;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.2); /* Translucent white background */
+      backdrop-filter: blur(10px); /* Blurred effect */
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 40%;
+      max-width: 500px;
+      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    /* Button Styles */
+    .home-container button {
+      background-color: #ff4d6d;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+      width: 100%;
+      max-width: 200px;
+    }
+    
+    .home-container button:hover {
+      background-color: #d43f5e;
+    }
+    
+    /* 🌐 Responsive Adjustments */
+    @media (max-width: 1024px) {
+      .home-container {
+        width: 50%;
+        padding: 35px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .home-container {
+        width: 60%;
+        padding: 30px;
+      }
+    
+      .home-container button {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .home-container {
+        width: 80%;
+        padding: 20px;
+      }
+    
+      .home-container button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+    
